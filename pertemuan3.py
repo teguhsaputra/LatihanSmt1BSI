@@ -1,6 +1,5 @@
 from time import sleep
 import os
-from winreg import LoadKey
 
 def clear_screen():
     _ = os.system('cls')
