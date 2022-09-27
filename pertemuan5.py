@@ -53,9 +53,14 @@ def tugas():
 # for i in range(2) :
 #     latihan(i)
 
-# tugas()
+tugas()
 
 # jumlahdata = 3
 # for i in range(jumlahdata)
 #     i = i + 1
 #     np[]    
+
+# a = np.array([[],[],[]])
+# a = np.insert(a,0,["ayang","goreng"])
+# a = np.append([["test1","test2"]])
+# print(a)

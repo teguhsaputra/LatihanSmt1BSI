@@ -4,6 +4,73 @@ import os
 def clear_screen():
     _ = os.system('cls')
 
+def materi1() :
+    angka = 5
+    if angka > 0:
+        print(angka, "adalah bilangan positif.")
+    angka = -1
+    if angka > 0:
+        print(angka, "adalah bilangan positif.")
+    sleep(2)
+    clear_screen()
+
+def materi2() :
+    bilangan = 8
+    if bilangan >= 0:
+        print("Positif atau Nol")
+    else : 
+        print("Bilangan Negatif")
+    sleep(2)
+    clear_screen()
+
+def materi3() : 
+    '''Di sini kita menguji apakah sebuah bilangan adalah bilangan positif, nol, atau negatif - dan menampilkan hasilnya ke layar '''
+    bilangan = 5.5
+
+    '''Coba juga mengganti bilangan jadi 
+        bilangan = 0
+        bilangan = -5.5'''
+    if bilangan > 0:
+        print("Bilangan positif")
+    elif bilangan == 0:
+        print("Nol")
+    else:
+        print("Bilangan Negatif")
+    sleep(2)
+    clear_screen()
+
+def penjualanbaju():
+    print("===============================")
+    print("      Penjualan Baju")
+    print("===============================")
+    kode_baju = input("Masukan Kode Baju [SP/AD] : ")
+    ukuran = input("Masukan Ukuran Baju [S/M] : ")
+    if kode_baju == "SP" or kode_baju == "sp" :
+        merk = "SuperDry"
+        if ukuran == "S" or ukuran == "s":
+            harga = 450000
+        elif ukuran == "M" or ukuran == "m":
+            harga = 500000
+        else:
+            harga = 0
+    elif kode_baju == "AD" or kode_baju == "ad" :
+        merk = "Adidas"
+        if ukuran == "s" or ukuran == "S":
+            harga = 650000
+        elif ukuran == "M" or ukuran == "m" :
+            harga = 700000
+        else:
+            harga = 0
+    else:
+        merk = "Anda Salah Input Kode Merk"
+        harga = 0
+    print("================================")
+    print("Merk Baju : ", merk)
+    print("Harga Baju : Rp.", harga)
+    sleep(2)
+    clear_screen()
+
+
 def pejualantiket():
     print("===============================")
     print("      Penjualan Tiket Bus")
@@ -101,7 +168,10 @@ def gajikaryawan():
     clear_screen()
 
 
-
+materi1()
+materi2()
+materi3()
+penjualanbaju()
 pejualantiket()
 pendaftaranmaba()
 gajikaryawan()
