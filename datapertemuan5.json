@@ -1,0 +1,16 @@
+{
+    "tmp_data": [
+        {
+            "jenispotong": "Dada",
+            "harga": 2500,
+            "banyakpotong": 10,
+            "jumlahharga": 25000
+        },
+        {
+            "jenispotong": "Paha",
+            "harga": 2000,
+            "banyakpotong": 50,
+            "jumlahharga": 100000
+        }
+    ]
+}
