@@ -3,14 +3,14 @@
         {
             "jenispotong": "Dada",
             "harga": 2500,
-            "banyakpotong": 10,
-            "jumlahharga": 25000
+            "banyakpotong": 2,
+            "jumlahharga": 5000
         },
         {
             "jenispotong": "Paha",
             "harga": 2000,
-            "banyakpotong": 50,
-            "jumlahharga": 100000
+            "banyakpotong": 1,
+            "jumlahharga": 2000
         }
     ]
 }

@@ -102,8 +102,8 @@ def pejualantiket():
     uangbayar = int(input("Masukan Uang Bayar : "))
     uangkembali = uangbayar-total
     print("Uang Kembali : Rp.",uangkembali)
-    sleep(2)
-    clear_screen()
+    # sleep(2)
+    # clear_screen()
 
 def pendaftaranmaba():
     print("=================================")
